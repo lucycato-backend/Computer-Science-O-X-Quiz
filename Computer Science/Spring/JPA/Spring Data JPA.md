@@ -1,0 +1,5 @@
+1. ORM(Object Relational Mapping)은 관계형 데이터 베이스를 객체 지향 적으로 연결해 주는 기술이다. (O, X)
+2. JDBC(Java Database Connectivity)는 관계형 데이터베이스를 위해 설계된 API이다 (O, X)
+3. JPA(Java Persistence API)는 MongoDB에서도 사용이 가능하다. (O, X)
+4. Spring Data JPA에서 EntityManager는 Entity의 생명주기를 관리하는 역할을 한며, EntityManger를 통해 데이터베이스의 연산을 수행하고 Entity 객체에 관계형데이터 베이스의 데이터를 매핑시킨다. (O, X)
+5. Spring Data JPA를 사용하여 데이터베이스를 조작하는 방법에는 NativeQuery, QueryDSL, JPQL 3가지가 있다. (O, X)
