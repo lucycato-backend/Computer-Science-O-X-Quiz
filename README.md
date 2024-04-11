@@ -5,8 +5,8 @@
 
 </div>
 
-✅ Commit Convention: [주제] 상태 내용
-`ex) [OS] add/update/delete process vs thread `
+✅ Commit Convention: [주차] 주제 내용
+<br>ex) `[2주차] OS process vs thread 문제 추가`
 
 💡 잘못된 내용은 [이슈](https://github.com/lucycato-backend/Computer-Science-O-X-Quiz/issues)와 [PR](https://github.com/lucycato-backend/Computer-Science-O-X-Quiz/pulls)로 알려주세요
 
