@@ -25,23 +25,33 @@
 
 * 이진탐색 트리(BST)의 평균 시간 복잡도는 O(logn)이며 최악의 시간 복잡도는 O(n)이다  
 답 o
-![1](https://github.com/witwint/TIL/assets/108222981/2900d9be-7dee-4130-afcc-1767f537368d)
-![1](https://github.com/witwint/TIL/assets/108222981/40a3d58b-b174-4cd3-9a41-adc4feb3427d)
+
+![](https://github.com/witwint/TIL/assets/108222981/2900d9be-7dee-4130-afcc-1767f537368d)
+
+![](https://github.com/witwint/TIL/assets/108222981/40a3d58b-b174-4cd3-9a41-adc4feb3427d)
+
+
 자주쓰는 시간 복잡도 평균과 최악의 시간 복잡도를 고려하여 사용해야 합니다.
 
 ---
 
 * 자바에서 HashSet이 HashMap보다 성능이 좋다.  
 답 x
-![1](https://github.com/witwint/TIL/assets/108222981/6f39c929-c2ee-4f89-a7e9-87ffcd280544)
+
+![](https://github.com/witwint/TIL/assets/108222981/6f39c929-c2ee-4f89-a7e9-87ffcd280544)
+
+
 HashSet 내부에서 HashMap을 선언하여 사용하기에 차이가 없다.
 
 ---
 
 * 자바 ArrayList의 contains 시간복잡도는 O(n)이다.  
 답o
-![1](https://github.com/witwint/TIL/assets/108222981/6e2e9356-f358-4382-a8c9-91ad9c54d171)
-![1](https://github.com/witwint/TIL/assets/108222981/7d1d42e9-0b35-4613-a511-bb71eef8680e)
+![](https://github.com/witwint/TIL/assets/108222981/6e2e9356-f358-4382-a8c9-91ad9c54d171)
+
+![](https://github.com/witwint/TIL/assets/108222981/7d1d42e9-0b35-4613-a511-bb71eef8680e) 
+
+
 실제로 그냥 인덱스를 돌려서 값이 같은걸 찾고 리턴해준다.
 
 ---
@@ -106,8 +116,12 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 ```
 synchronized 키워드가 메소드 전체에 붙어 있지 않습니다. get() 메소드에는 아예 synchronized가 존재하지 않고, put() 메소드에는 중간에 synchronized 키워드가 존재하는 것을 볼 수 있습니다. 이것을 좀 더 정리해보면 ConcurrentHashMap은 읽기 작업에는 여러 쓰레드가 동시에 읽을 수 있지만, 쓰기 작업에는 특정 세그먼트 or 버킷에 대한 Lock을 사용한다는 것입니다.  
 (https://velog.io/@kimunche/ConcurrentHashMap) 참고자료
-![1](https://github.com/witwint/TIL/assets/108222981/29410bcc-f317-49b8-8506-ec865824aed3)
-![2](https://github.com/witwint/TIL/assets/108222981/4041ba56-067e-4a05-9359-8377ca8d4378)
+
+
+![](https://github.com/witwint/TIL/assets/108222981/29410bcc-f317-49b8-8506-ec865824aed3)
+
+![](https://github.com/witwint/TIL/assets/108222981/4041ba56-067e-4a05-9359-8377ca8d4378)
+
 
 ---
 
@@ -120,7 +134,10 @@ synchronized 키워드가 메소드 전체에 붙어 있지 않습니다. get() 
 * 레드 블랙트리는 자기 균형 이진 탐색 트리이다.  
 답 o
 레드블랙트리는 최대힙 최소힙이런 트리가 정리를 하면서 데이터를 정리헤 저장하는거처럼 좌우 방향을 기준으로 자신의 왼쪽 서브 트리에는 현재 노드보다 값이 작은 것, 오른쪽 서브 트리에는 값이 큰 것들만 가질 수 있게 만든 트리입니다.
-![`](https://github.com/witwint/TIL/assets/108222981/1db141a6-cff5-4493-aee2-6210108d4721)
+
+![](https://github.com/witwint/TIL/assets/108222981/1db141a6-cff5-4493-aee2-6210108d4721)
+
+
 자세한 내용 (https://jwdeveloper.tistory.com/280)
 
 ---
@@ -164,6 +181,9 @@ static final int UNTREEIFY_THRESHOLD = 6;
 5. 충돌이 일어날 시, 충돌 수가 적으면 LinkedList 방식으로 충돌된 객체들을 관리하다가, 임계점을 넘으면 Red-Black Tree 방식으로 객체들을 저장한다.
 
 6. 시간 복잡도는 Linked List가 O(n), Red-Black Tree가 O(log n)이다.
-![1](https://github.com/witwint/TIL/assets/108222981/6cc7d837-5a28-4dd4-b78a-754ddb6f88c1)
 
-![1](https://github.com/witwint/TIL/assets/108222981/0dbc316f-e1c5-45d7-b473-703e7efa003b)
+
+![](https://github.com/witwint/TIL/assets/108222981/6cc7d837-5a28-4dd4-b78a-754ddb6f88c1)
+
+
+![](https://github.com/witwint/TIL/assets/108222981/0dbc316f-e1c5-45d7-b473-703e7efa003b)

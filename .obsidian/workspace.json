@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Spring/JPA/Spring Data JPA.md",
+                "file": "Computer Science/Network/[2] Protocol & Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Spring/JPA/Spring Data JPA.md",
+                "file": "Computer Science/Network/[2] Protocol & Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Spring/JPA/Spring Data JPA.md",
+                "file": "Computer Science/Network/[2] Protocol & Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Spring/JPA/Spring Data JPA.md"
+                "file": "Computer Science/Network/[2] Protocol & Model.md"
               }
             }
           }
@@ -138,22 +138,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "bcf61dfb3b512c78",
   "lastOpenFiles": [
+    "Computer Science/Network/[1] Network basic.md",
+    "Computer Science/Database/Theory.md",
     "Computer Science/Database/Performance.md",
+    "Computer Science/Data Structure/JavaDataStructure.md",
+    "Screenshot 2024-04-16 at 9.30.00 PM.png",
+    "Computer Science/Spring/JPA/Spring Data JPA.md",
+    "Computer Science/Data Structure/Array, Linked List.md",
     "Computer Science/Network/Network basic.md",
     "Computer Science/Operating System/Process vs Thread.md",
-    "Computer Science/Data Structure/Array, Linked List.md",
     "주차별 문제/1주차.md",
-    "Computer Science/Spring/JPA/Spring Data JPA.md",
     "README.md"
   ]
 }
