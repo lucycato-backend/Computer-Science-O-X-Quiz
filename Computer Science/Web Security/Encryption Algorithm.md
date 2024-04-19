@@ -15,6 +15,7 @@
 5. SSL 인증서는 RSA 암호화 방식을  ( O / X )
 
 
+
 # 정답과 해설
 
 1. SHA(Secure Hash Algorithm)는 단방향 암호화 방식이므로 복호화가 불가능하며, 
