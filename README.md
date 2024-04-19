@@ -20,6 +20,7 @@
 - ### [Computer Architecture](./Computer%20Science/Computer%20Architecture)
 - ### [Data Structure](./Computer%20Science/Data%20Structure/)
 - ### [Algorithm](./Computer%20Science/Algorithm)
+- ### [Web Security](./Computer%20Science/Web%20Security)
 
 ## 📍 Web
 
