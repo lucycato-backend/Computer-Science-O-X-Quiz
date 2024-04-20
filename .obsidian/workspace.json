@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "688f080ee39a4192",
+        "id": "7c9ea6e9f50253d8",
         "type": "tabs",
         "children": [
           {
-            "id": "bcf61dfb3b512c78",
+            "id": "2cfe46cbae0425b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Network/[2] Protocol & Model.md",
+                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "403a7d454704b9cd",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Network/[2] Protocol & Model.md",
+                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Network/[2] Protocol & Model.md",
+                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Network/[2] Protocol & Model.md"
+                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md"
               }
             }
           }
@@ -138,25 +138,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "bcf61dfb3b512c78",
+  "active": "2cfe46cbae0425b7",
   "lastOpenFiles": [
-    "Computer Science/Network/[1] Network basic.md",
+    "Computer Science/Spring/JPA/(1) Spring Data JPA.md",
+    "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
+    "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
+    "Computer Science/Web Security/Encryption Algorithm.md",
+    "Computer Science/Web Security",
+    "Computer Science/Operating System/[1] OS Intro.md",
+    "Computer Science/Database/Optimizer.md",
+    "Computer Science/Data Structure/Time Complexity.md",
+    "Computer Science/Operating System/Process vs Thread.md",
+    "Computer Science/Operating System/CPU Scheduling.md",
+    "Computer Science/Data Structure/Array, Linked List.md",
     "Computer Science/Database/Theory.md",
     "Computer Science/Database/Performance.md",
+    "Computer Science/Network/[2] Protocol & Model.md",
+    "Computer Science/Network/[1] Network basic.md",
+    "Computer Science/Web Security/[1]Encryption Algorithm",
     "Computer Science/Data Structure/JavaDataStructure.md",
-    "Screenshot 2024-04-16 at 9.30.00 PM.png",
-    "Computer Science/Spring/JPA/Spring Data JPA.md",
-    "Computer Science/Data Structure/Array, Linked List.md",
+    "오늘 일정.md",
     "Computer Science/Network/Network basic.md",
-    "Computer Science/Operating System/Process vs Thread.md",
+    "주차별 문제/2주차.md",
     "주차별 문제/1주차.md",
     "README.md"
   ]
