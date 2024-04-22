@@ -63,7 +63,7 @@ for(int i=0; i<n; i++) {
 #### 답
 
 1. 우리는 입력값과 연산 수행 시간의 상관관계를 나타내는 척도를 시간 복잡도라고 한다. 답 O
-[](https://github.com/witwint/TIL/assets/108222981/7a2bb6e2-0515-4249-b021-49fa2c8f7d45)
+![](https://github.com/witwint/TIL/assets/108222981/7a2bb6e2-0515-4249-b021-49fa2c8f7d45)
 
 2. 해당 코드의 시간복잡도는 O(n^3)이다. 답 O
 ```java
