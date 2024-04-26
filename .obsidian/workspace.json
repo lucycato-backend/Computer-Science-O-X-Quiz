@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
+                "file": "Computer Science/Spring/JPA/(3) Spring Data JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 378.50390243530273
   },
   "right": {
     "id": "403a7d454704b9cd",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
+                "file": "Computer Science/Spring/JPA/(3) Spring Data JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
+                "file": "Computer Science/Spring/JPA/(3) Spring Data JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Spring/JPA/(2) Spring Data JPA.md"
+                "file": "Computer Science/Spring/JPA/(3) Spring Data JPA.md"
               }
             }
           }
@@ -150,21 +150,22 @@
   "lastOpenFiles": [
     "Computer Science/Spring/JPA/(1) Spring Data JPA.md",
     "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
-    "Computer Science/Spring/JPA/(2) Spring Data JPA.md",
+    "Computer Science/Spring/JPA/(3) Spring Data JPA.md",
+    "주차별 문제/3주차.md",
     "Computer Science/Web Security/Encryption Algorithm.md",
-    "Computer Science/Web Security",
     "Computer Science/Operating System/[1] OS Intro.md",
-    "Computer Science/Database/Optimizer.md",
-    "Computer Science/Data Structure/Time Complexity.md",
     "Computer Science/Operating System/Process vs Thread.md",
-    "Computer Science/Operating System/CPU Scheduling.md",
-    "Computer Science/Data Structure/Array, Linked List.md",
+    "Computer Science/Data Structure/Time Complexity.md",
     "Computer Science/Database/Theory.md",
     "Computer Science/Database/Performance.md",
+    "Computer Science/Database/Optimizer.md",
+    "Computer Science/Data Structure/JavaDataStructure.md",
+    "Computer Science/Data Structure/Array, Linked List.md",
+    "Computer Science/Web Security",
+    "Computer Science/Operating System/CPU Scheduling.md",
     "Computer Science/Network/[2] Protocol & Model.md",
     "Computer Science/Network/[1] Network basic.md",
     "Computer Science/Web Security/[1]Encryption Algorithm",
-    "Computer Science/Data Structure/JavaDataStructure.md",
     "오늘 일정.md",
     "Computer Science/Network/Network basic.md",
     "주차별 문제/2주차.md",
