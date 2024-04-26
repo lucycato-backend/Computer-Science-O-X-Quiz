@@ -27,7 +27,10 @@
 # 정답과 해설
 1. 아래의 JPQL은 N:1 관계를 나타낸다 ( O )
 - 특정 직원은 하나의 부서를 가질 수 있다. 그러므로 직원과 부서는 N:1 관계이다. 위의 JPQL은 특정 직원을 기준으로 inner join을 시도 하고 있다. 그럼으로 N:1 관계를 나타낸다고 할 수 있다.
-	
+- 추가정보:
+	- SQL: inner join, left join, right join, full outer join 지원
+	- JPQL: join (inner join), left join (left outer join), join fetch 지원
+	- QueryDSL: join (inner join), left join (left outer join), join fetch 지원
 
 2. 아래의  JPQL은 1:N 관계를 나타낸다 ( O )
 - 특정 부서는 여러명의 직원을 가질 수 있다. 그러므로 부서와 직원은 1:N 관계이다. 위의 JPQL은 특정 직원을 기준으로 left join fetch를 시도하고 있다. 그럼으로 1:N 관계를 나타낸다고 할 수 있다.
