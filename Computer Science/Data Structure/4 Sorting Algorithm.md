@@ -43,7 +43,7 @@
 
 ---
 
-* 버블정렬을 수행할때 공간복잡도는 O(n^2)이다. O
+* 버블정렬을 수행할때 공간복잡도는 O(n^2)이다. x
 
 버블정렬  
 ![1](https://github.com/justindevcode/TIL/assets/108222981/b9d0da74-900b-4809-870b-c60467a7d3b3)  
