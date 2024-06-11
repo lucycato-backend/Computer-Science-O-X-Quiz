@@ -2,7 +2,7 @@
 1. ORM(Object Relational Mapping)은 관계형 데이터 베이스를 객체 지향 적으로 연결해 주는
 	기술이다. ( O / X )
 
-2. JDBC(Java Database Connectivity)는 관계형 데이터베이스에서만 사용될 수 있다. ( O / X )
+2. JDBC(Java Database Connectivity)는 관계형 데이터베이스에서만 사용될 수 있다. ( O / X )
 
 3. JPA(Java Persistence API)는 MongoDB에서도 사용이 가능하다. ( O / X )
 
@@ -16,7 +16,7 @@
 
 - ORM(Object Relational Mapping) 기술은 RDB(Relational Database)와 객체 지향 프로그래밍 언어 (OOP)의 간극을 메우는 기술이다. ORM을 사용함으로써, 개발자는 데이터베이스의 테이블을 객체 지향 프로그래밍 언어의 클래스로 매핑 할 수 있게 되며, 이를 통해 데이터를 객체 형태로 쉽게 조회, 생성, 수정, 삭제할 수 있다. 이러한 접근 방식은 RDB를 OOP 관점으로 해석하고 조작할 수 있게 해주며, 통합된 관점을 기반으로 유지보수와 생산성을 향상시킨다.
 
-2. JDBC(Java Database Connectivity)는 관계형 데이터베이스에서만 사용될 수 있다. ( X )
+2. JDBC(Java Database Connectivity)는 관계형 데이터베이스에서만 사용될 수 있다. ( X )
 
 - JDBC(Java Database Connectivity)는 데이터베이스 연결을 위한 표준 API이다. JDBC는 관계형 데이터베이스를 기반으로 설계 되었으나, MongoDB와 같은 NoSQL 데이터 베이스에 접근하기 위한 JDBC 드라이버도 존재한다. 그러므로 관계형 데이터베이스에만 사용이 된다는 설명은 틀린 설명이다. JDBC는 데이터베이스 종류에 관계없이 일관된 접근을 가능하게 하는 추상화된 인터페이스를 제공해준다.
 
@@ -30,7 +30,7 @@
 	- new: 
 		Entity가 생성되었지만 아직 EntityManager에 의해 관리되지 않는 상태이다. 이 상태의 Entity는 persistence context에 속하지 않으며 데이터베이스에 반영되지 않는다.
 	 - managed:
-		EntityManager에 의해 관리되는 상태이다. 이 상태는 persistence context에 추가된 상태며 Transaction Commit이 수행이 되면 해당 Entity의 변경사항을 기반으로 데이터베이스에 자동으로 반영이 된다.
+		EntityManager에 의해 관리되는 상태이다. 이 상태는 persistence context에 추가된 상태며 Transaction Commit이 수행이 되면 해당 Entity의 변경사항을 기반으로 데이터베이스에 자동으로 반영이 된다.
 	- detached:
 		EntityManager의 관리 범위에서 벗어난 상태이다. persistence context가 종료되엇거나, 명시적으로 detach 했을때 이러한 상태가 된다. detached 상태에서는 Entity의 변경사항이 데이터베이스에 반영되지 않는다.
 	- removed:
