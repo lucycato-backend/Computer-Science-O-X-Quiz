@@ -1,16 +1,6 @@
-<div align=center>
-  
-# 🖥 Computer Science ⭕/❌ Quiz 🎭
+  # 🖥 Computer Science ⭕/❌ Quiz 🎭
 기술 면접 대비를 위한 OX 퀴즈 형식의 CS 지식 정리
 
-</div>
-
-✅ Commit Convention: [주차] 주제 내용
-<br>ex) `[2주차] OS process vs thread 문제 추가`
-
-💡 잘못된 내용은 [이슈](https://github.com/lucycato-backend/Computer-Science-O-X-Quiz/issues)와 [PR](https://github.com/lucycato-backend/Computer-Science-O-X-Quiz/pulls)로 알려주세요
-
-<br>
 
 ## 📍 Computer Science
 
@@ -25,6 +15,28 @@
 
 - ### [Spring](./Web/Spring)
 - ### [Web Security](./Computer%20Science/Web%20Security)
+
+## Rule
+- 컴퓨터 과학 지식을 제대로 정리하고 설명할 수 있도록 하는 것을 목표합니다.
+- 각 주제별 폴더에는 내용정리 파일과 함께 문제지&해설지 파일이 있습니다.
+- 주차별 문제&해설 폴더에는 주차별로 선정한 문제지와 해설지 파일이 별도로 업로드되어 있습니다.
+
+💡 잘못된 내용이 있다면 [이슈](https://github.com/lucycato-backend/Computer-Science-O-X-Quiz/issues)와 [PR](https://github.com/lucycato-backend/Computer-Science-O-X-Quiz/pulls)로 알려주세요
+
+✅ File Naming and Path Convention: 주제/번호_내용.md
+
+ex) 
+- `"OS/2_process vs thread.md"`
+- `"OS/Test/2_process vs thread_test.md"`
+- `"주차별 문제/1주차/week1_test.md"`
+- `"주차별 문제/1주차/week1_answer.md"`
+
+✅ Commit Convention: 주제_번호_내용
+
+ex) 
+- `git commit -m "OS_2_process vs thread 내용 추가"`
+- `git commit -m "OS_2_process vs thread test 추가"`
+
 
 ## Resources
 ### Korean
