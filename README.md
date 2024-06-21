@@ -25,3 +25,15 @@
 
 - ### [Spring](./Web/Spring)
 - ### [Web Security](./Computer%20Science/Web%20Security)
+
+## Resources
+### Korean
+- [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+- [Backend-Interview-Question](https://github.com/ksundong/backend-interview-question)
+- [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
+- [coding-interview-university (한국어 버전)](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ko.md)
+- [brave-tech-interview](https://github.com/brave-people/brave-tech-interview)
+### English
+- [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+- [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
+- [how-web-works](https://github.com/vasanthk/how-web-works)
